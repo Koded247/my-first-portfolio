@@ -25,6 +25,7 @@ body {
 }
 
 header {
+    display: flex;
     background-color: #503f48d8;
     color: #ffff;
     padding: 20px;
