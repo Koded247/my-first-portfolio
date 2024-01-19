@@ -70,7 +70,8 @@ border-radius: 50%;
 
 aside {
     width: 200px;
-    background-color: #534b4d;
+    /* background-color: #534b4d; */
+    background-color: transparent;
     color: #fff;
     padding: 20px;
     position: fixed;
