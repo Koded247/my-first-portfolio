@@ -33,11 +33,12 @@ header {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    color: white;
+    text-align: center;
 
 }
 .info-text {
-    text-align: center;
-    color: #ffff;
+    /* text-align: center; */
 }
 
 .info-image {
@@ -80,7 +81,8 @@ section {
 }
 
 h1 {
-    color: #e97272;
+    color: #ee9898;
+    font-size: 3rem;
 } 
   
 p {
