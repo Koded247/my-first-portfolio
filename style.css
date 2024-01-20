@@ -57,7 +57,7 @@ header {
     
     max-width: 100%;
     height: auto;
-border-radius: 50%;
+    border-radius: 50%;
 
 }
 
@@ -70,8 +70,8 @@ border-radius: 50%;
 
 aside {
     width: 200px;
-    /* background-color: #534b4d; */
-    background-color: transparent;
+    background-color: #534b4d;
+    /* background-color: transparent; */
     color: #fff;
     padding: 20px;
     position: fixed;
@@ -137,3 +137,34 @@ a:any-link {
     text-decoration-line: none;
     color:#e97272;
 }
+
+/* Default styles */
+
+@media (max-width: 600px) {
+    /* Styles for screens up to 600px wide */
+
+    aside {
+        display: none;
+        padding: 0;
+    }
+    section {
+        padding: 10px 10px 50px 10px;
+    }
+  }
+  
+  @media (min-width: 601px) and (max-width: 1024px) {
+    /* Styles for screens between 601px and 1024px wide */
+
+    aside {
+        display: none;
+        padding: 0;
+    }
+    section {
+        padding: 10px 10px 50px 10px;
+    }
+  }
+  
+  @media (min-width: 1025px) {
+    /* Styles for screens wider than 1024px */
+  }
+  
